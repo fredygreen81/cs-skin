@@ -129,7 +129,7 @@ header a:hover{
     padding: 200px 12px;
 }
 
-#nuestros-programas{
+#nuestros-servicios{
     background-color: rgb(30,30,30);
     color: white;
     text-align: center;
@@ -139,16 +139,16 @@ header a:hover{
     padding: 150px 12px;
 }
 
-#nuestros-programas h2{
+#nuestros-servicios h2{
     margin-top: 0;
     font-size: 3.2em;
 }
 
-#nuestros-programas p{
+#nuestros-servicios p{
     display: none;
 }
 
-#nuestros-programas .carta{
+#nuestros-servicios .carta{
     background-position: center center;
     background-size: cover;
     padding: 50px 0px;
