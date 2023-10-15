@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Email</title>
+    <style>
+        /* Estilos para los campos de entrada */
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        /* Estilos para el botón de envío */
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        /* Estilos adicionales si lo deseas */
+        /* Añade aquí tus estilos personalizados */
+    </style>
+</head>
+<body>
+    <h1>Contacto</h1>
+    <p>Por favor, completa el siguiente formulario para ponerte en contacto con nosotros:</p>
+    
+    <form action="enviar_email.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <textarea id="nombre" name="Nombre" rows="4" cols="=50" required></textarea><br><br>
+       
+        
+        <label for="correo">Correo Electrónico:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+        
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
