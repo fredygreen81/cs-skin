@@ -1,4 +1,4 @@
-*{
+{
     box-sizing: border-box;
 }
 html{
@@ -111,9 +111,7 @@ header a:hover{
     text-align: center;
     padding: 200px 12px;
 }
-
 #nuestros-programas{
-#nuestros-servicios{
     background-color: rgb(30,30,30);
     color: white;
     text-align: center;
@@ -121,20 +119,14 @@ header a:hover{
 #nuestros-programas .container{
     padding: 150px 12px;
 }
-
 #nuestros-programas h2{
-#nuestros-servicios h2{
     margin-top: 0;
     font-size: 3.2em;
 }
-
 #nuestros-programas p{
-#nuestros-servicios p{
     display: none;
 }
-
 #nuestros-programas .carta{
-#nuestros-servicios .carta{
     background-position: center center;
     background-size: cover;
     padding: 50px 0px;
@@ -233,6 +225,7 @@ footer .container{
         flex-direction: column;
         justify-content: center;
     }
+
     #somos-cs-skin h2{
         margin-top: 0px;
         @media (min-width:320px)  { 
@@ -258,7 +251,19 @@ footer .container{
             /* hi-res laptops and desktops */ 
             }
     }
+
     #somos-cs-skin .img-container{
+
+    
+          
+            
+    
+
+          
+          Expand Down
+    
+    
+  
         background-image: url("media/somos-cs-skin.jpg");
         background-size: cover;
         background-position: center center;
@@ -281,7 +286,7 @@ footer .container{
     }
     #nuestros-programas .carta{
         padding: 50px;
-        background-size: 90% 1px;
+        background-size: 100% 150px;
         background-repeat: no-repeat;
         background-position-y: 0;
         background-color: rgba(50, 50, 50, 1);
@@ -357,8 +362,4 @@ textarea {
     border-radius: 4px;
     cursor: pointer;
 }
- /* Centrar mas la imagen mia de portada */
-/* Estilos generales para pantallas mas pequeñas*/
-@media (min-width: 600px) {
-    
-}
+/* Centrar mas la imagen mia de portada *
