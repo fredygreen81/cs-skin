@@ -1,8 +1,4 @@
 
-
-
-
-
 *{
     box-sizing: border-box;
 }
@@ -414,5 +410,11 @@ textarea {
     cursor: pointer;
 }
  /* Centrar mas la imagen mia de portada */
+
+/* Estilos generales para pantallas mas pequeñas*/
+
+@media (min-width: 600px) {
+    
+}
  
     
