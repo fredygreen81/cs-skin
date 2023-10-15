@@ -129,7 +129,7 @@ header a:hover{
     padding: 200px 12px;
 }
 
-#nuestros-servicios{
+#nuestros-programas{
     background-color: rgb(30,30,30);
     color: white;
     text-align: center;
@@ -139,16 +139,16 @@ header a:hover{
     padding: 150px 12px;
 }
 
-#nuestros-servicios h2{
+#nuestros-programas h2{
     margin-top: 0;
     font-size: 3.2em;
 }
 
-#nuestros-servicios p{
+#nuestros-programas p{
     display: none;
 }
 
-#nuestros-servicios .carta{
+#nuestros-programas .carta{
     background-position: center center;
     background-size: cover;
     padding: 50px 0px;
@@ -301,30 +301,30 @@ footer .container{
         width: 400px; 
     }
 
-    #nuestros-servicios .programas{
+    #nuestros-programas .programas{
         display: flex;
         justify-content: center;
     }
 
-    #nuestros-servicios p{
+    #nuestros-programas p{
         display: block;
         margin-bottom: 30px;
     }
 
-    #nuestros-servicios h2{
+    #nuestros-programas h2{
         font-size: 4em;
     }
 
-    #nuestros-servicios h3{
+    #nuestros-programas h3{
         margin-top: 0;
     }
 
-    #nuestros-servicios .carta{
+    #nuestros-programas .carta{
         padding: 50px;
         background-size: 90% 1px;
         background-repeat: no-repeat;
         background-position-y: 0;
-        background-color: rgb(244, 239, 239);
+        background-color: rgba(50, 50, 50, 1);
         box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
     }
 
