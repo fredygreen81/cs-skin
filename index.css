@@ -301,27 +301,27 @@ footer .container{
         width: 400px; 
     }
 
-    #nuestros-programas .programas{
+    #nuestros-servicios .programas{
         display: flex;
         justify-content: center;
     }
 
-    #nuestros-programas p{
+    #nuestros-servicios p{
         display: block;
         margin-bottom: 30px;
     }
 
-    #nuestros-programas h2{
+    #nuestros-servicios h2{
         font-size: 4em;
     }
 
-    #nuestros-programas h3{
+    #nuestros-servicios h3{
         margin-top: 0;
         background-color: azure;
 
     }
 
-    #nuestros-programas .carta{
+    #nuestros-servicios .carta{
         padding: 50px;
         background-size: 90% 1px;
         background-repeat: no-repeat;
