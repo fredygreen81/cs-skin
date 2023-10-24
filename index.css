@@ -356,7 +356,7 @@ textarea {
     border-radius: 4px;
     cursor: pointer;
 }
-/* Poner el carrucel para las imagenes de arriba */
+
 .carousel-wrapper{
     overflow: hidden;
 }
