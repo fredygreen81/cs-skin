@@ -1,3 +1,4 @@
+
 {
         @media screen and (max-width:800px) {
             box-sizing: border-box;
@@ -11,6 +12,7 @@
 
         box-sizing: border-box;
     }
+
 
     html {
         scroll-behavior: smooth;
@@ -209,7 +211,7 @@
 
     #contactanos {
         margin-top: -20px
-        display: flex;
+        display flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
