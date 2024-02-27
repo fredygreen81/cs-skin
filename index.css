@@ -1,385 +1,467 @@
 {
-@media screen and (max-width:800px) {
-   box-sizing: border-box;
-h1{color:red}    
+        @media screen and (max-width:800px) {
+            box-sizing: border-box;
 
-    
-} 
-    box-sizing: border-box;
-}
-html{
-    scroll-behavior: smooth;
-}
-body{
-   
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-}
-.fondo-img {
-    filter:none(1);
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    overflow: hidden;
-    background-image: url("Portada.jpg");
-    height: 100vh;
-    width: 100vw;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-h1{ font-size: 3.5em;}
-h2{ font-size: 2.4em;}
-h3{ font-size: 2em;}
-p{ font-size: 1.25em;}
-ul{ list-style: none;}
-li{ font-size: 1.25em;}
-button{
-    font-size: 1.25em;
-    font-weight: bold;
-    padding: 10px 30px;
-    border-radius: 6px;
-    border: 2px solid rgba(0,0,0,0.3);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-    color: white;
-    background-color: blueviolet;
-}
-button:hover{
-    background-color: rgb(101, 33, 165);
-}
-.container{
-    max-width: 1400px;
-    margin: auto;
-}
-.color-acento{ color:blueviolet; }
-header{
-    background-color: rgb(245,245,245);
-    
-}
-header .logo{
-    margin: 3;
-    padding: 25px 30px;
-    font-weight: bold;
-    color: blueviolet;
-    font-size: 1.5em;
-}
-header .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-header nav{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 25px;
-}
-header a{
-    padding: 5px 12px;
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-}
-header a:hover{
-    color: blueviolet;
-}
-#hero{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 90vh;
-   
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-#hero h1{
-    color: white;
-}
-#hero img {
-    padding-bottom: 1em;
-}
-#hero button{
-    font-size: 1.75em;
-}
-#somos-cs-skin .container{
-    text-align: center;
-    padding: 200px 12px;
-}
-#nuestros-programas{
-    
-    background-color: rgba(228, 223, 223, 0);
-    color: rgb(0, 0, 0) ;
-    text-align: center;
-}
-#nuestros-programas .container{
-    padding: 150px 12px;
-}
-#nuestros-programas h2{
-    margin-top: 0;
-    font-size: 3.2em;
-}
-#nuestros-programas p{
-    display: none;
-}
-#nuestros-programas .carta{
-    background-position: center center;
-    background-size: cover;
-    padding: 50px 0px;
-    margin: 30px;
-    border-radius: 15px;
-}
-.carta:first-child{
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("media/front-end.jpg");
-}
-.carta:nth-child(2){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("media/full-stack.jpg");
-}
-.carta:nth-child(3){
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-    ,url("media/python.jpg");
-}
-#caracteristicas .container{
-    text-align: center;
-    padding: 250px 12px;
-}
-#caracteristicas li{
-    margin: 16px 0px;
-    font-weight: bold;
-}
-#contactanos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: black;
-    height: 80vh;
-}
-#contactanos h2{
-    font-size: 9vw;
-}
-#contactanos button{
-    font-size: 5vw;
-}
-footer{
-    background-color: rgb(230,230,230);
-}
-footer p{
-    margin: 0;
-    padding: 12px;
-    color: rgb(100,100,100);
-}
-footer .container{
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-@media (min-width: 300px){
-    header{
-       /* position: ; */
-        width: 100%;
+            h1 {
+                color: red
+            }
+
+
+        }
+
+        box-sizing: border-box;
     }
-    header .container{
-        flex-direction: row;
-        justify-content: space-between;
+
+    html {
+        scroll-behavior: smooth;
     }
-    header nav{
-        flex-direction: row;
-        padding-bottom: 0;
-        padding-right: 20px;
+
+    body {
+
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
     }
-    #hero h1{
-        font-size: 5em;
+
+    .fondo-img {
+        filter: none(1);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        overflow: hidden;
+        background-image: url("Portada.jpg");
+        height: 100vh;
+        width: 100vw;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
-    #somos-cs-skin .container{
-        display: flex;
-        justify-content: space-evenly;
+
+    h1 {
+        font-size: 3.5em;
     }
-    #somos-cs-skin .texto{
-        width: 100wh;
-        max-width: 600px;
-        text-align: initial;
-        display: flex;
+
+    h2 {
+        font-size: 2.4em;
+    }
+
+    p {
+        font-size: 1.25em;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        font-size: 1.25em;
+    }
+
+    button {
+        font-size: 1.25em;
+        font-weight: bold;
+        padding: 10px 30px;
+        border-radius: 6px;
+        border: 2px solid rgba(0, 0, 0, 0.3);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        color: white;
+        background-color: blueviolet;
+    }
+
+    button:hover {
+        background-color: rgb(101, 33, 165);
+    }
+
+    .container {
+        max-width: 1400px;
         margin: auto;
+    }
+
+    .color-acento {
+        color: blueviolet;
+    }
+
+    header {
+        background-color: rgb(245, 245, 245);
+
+    }
+
+    header .logo {
+        margin: 3;
+        padding: 25px 30px;
+        font-weight: bold;
+        color: blueviolet;
+        font-size: 1.5em;
+    }
+
+    header .container {
+        display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    header a {
+        padding: 5px 12px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    }
+
+    header a:hover {
+        color: blueviolet;
+    }
+
+    #hero {
+        display: flex;
+        align-items: center;
         justify-content: center;
-    }
+        text-align: center;
+        flex-direction: column;
+        height: 90vh;
 
-    #somos-cs-skin h2{
-        margin-top: 0px;
-        @media (min-width:320px)  { 
-            /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-                table, p, img {
-                padding-right: 1em;
-                width: 100%;
-                }
-             }
-            @media (min-width:480px)  { 
-            /* smartphones, Android phones, landscape iPhone */ 
-            }
-            @media (min-width:600px)  { 
-            /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
-            }
-            @media (min-width:801px)  { 
-            /* tablet, landscape iPad, lo-res laptops ands desktops */ 
-            }
-            @media (min-width:1025px) { 
-            /* big landscape tablets, laptops, and desktops */ 
-            }
-            @media (min-width:1281px) { 
-            /* hi-res laptops and desktops */ 
-            }
-    }
-
-    #somos-cs-skin .img-container{
-   
-  
-        background-image: url("media/somos-cs-skin.jpg");
+        background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        height: 500px;
-        width: 400px; 
     }
-    #nuestros-programas .programas{
+
+    #hero h1 {
+        color: white;
+    }
+
+    #hero img {
+        padding-bottom: 1em;
+    }
+
+    #hero button {
+        font-size: 1.75em;
+    }
+
+    #somos-cs-skin .container {
+        text-align: center;
+        padding: 200px 12px;
+    }
+
+    #nuestros-programas {
+
+        background-color: rgba(228, 223, 223, 0);
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+
+    #nuestros-programas .container {
+        padding: 150px 12px;
+    }
+
+    #nuestros-programas h2 {
+        margin-top: 0;
+        font-size: 3.2em;
+    }
+
+    #nuestros-programas p {
+        display: none;
+    }
+
+    #nuestros-programas .carta {
+        background-position: center center;
+        background-size: cover;
+        padding: 50px 0px;
+        margin: 30px;
+        border-radius: 15px;
+    }
+
+    .carta:first-child {
+        background-image: linear-gradient(0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url("media/front-end.jpg");
+    }
+
+    .carta:nth-child(2) {
+        background-image: linear-gradient(0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url("media/full-stack.jpg");
+    }
+
+    .carta:nth-child(3) {
+        background-image: linear-gradient(0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url("media/python.jpg");
+    }
+
+    #caracteristicas .container {
+        text-align: center;
+        padding: 250px 12px;
+    }
+
+    #caracteristicas li {
+        margin: 16px 0px;
+        font-weight: bold;
+    }
+
+    #contactanos {
+        margin-top: -20px
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: black;
+        height: 80vh;
+    }
+
+    #contactanos h2 {
+        font-size: 9vw;
+    }
+
+    #contactanos button {
+        font-size: 5vw;
+    }
+
+    footer {
+        background-color: rgb(230, 230, 230);
+    }
+
+    footer p {
+        margin: 0;
+        padding: 12px;
+        color: rgb(100, 100, 100);
+    }
+
+    footer .container {
+        height: 150px;
         display: flex;
         justify-content: center;
+        align-items: flex-end;
     }
-    #nuestros-programas p{
-        display: block;
-        margin-bottom: 30px;
+
+    @media (min-width: 300px) {
+        header {
+            /* position: ; */
+            width: 100%;
+        }
+
+        header .container {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        header nav {
+            flex-direction: row;
+            padding-bottom: 0;
+            padding-right: 20px;
+        }
+
+        #hero h1 {
+            font-size: 5em;
+        }
+
+        #somos-cs-skin .container {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        #somos-cs-skin .texto {
+            width: 100wh;
+            max-width: 600px;
+            text-align: initial;
+            display: flex;
+            margin: auto;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        #somos-cs-skin h2 {
+            margin-top: 0px;
+
+            @media (min-width:320px) {
+
+                /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+                table,
+                p,
+                img {
+                    padding-right: 1em;
+                    width: 100%;
+                }
+            }
+
+            @media (min-width:480px) {
+                /* smartphones, Android phones, landscape iPhone */
+            }
+
+            @media (min-width:600px) {
+                /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+            }
+
+            @media (min-width:801px) {
+                /* tablet, landscape iPad, lo-res laptops ands desktops */
+            }
+
+            @media (min-width:1025px) {
+                /* big landscape tablets, laptops, and desktops */
+            }
+
+            @media (min-width:1281px) {
+                /* hi-res laptops and desktops */
+            }
+        }
+
+        #somos-cs-skin .img-container {
+
+
+            background-image: url("media/somos-cs-skin.jpg");
+            background-size: cover;
+            background-position: center center;
+            height: 500px;
+            width: 400px;
+        }
+
+        #nuestros-programas .programas {
+            display: flex;
+            justify-content: center;
+        }
+
+        #nuestros-programas p {
+            display: block;
+            margin-bottom: 30px;
+        }
+
+        #nuestros-programas h2 {
+            font-size: 4em;
+        }
+
+        #nuestros-programas h3 {
+            margin-top: 0;
+        }
+
+        #nuestros-programas .carta {
+            padding: 50px;
+            background-size: 100% 150px;
+            background-repeat: no-repeat;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            max-width: 450px;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .carta:first-child {
+            background-image: linear-gradient(0deg,
+                    rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.5)), url("media/front-end-cropped.jpg");
+        }
+
+        .carta:nth-child(2) {
+            background-image: linear-gradient(0deg,
+                    rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.5)), url("media/full-stack-cropped.jpg");
+        }
+
+        .carta:nth-child(3) {
+            background-image: linear-gradient(0deg,
+                    rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.5)), url("media/python-cropped.jpg");
+        }
+
+        #caracteristicas {
+            background-image: url("media/background-2.jpeg");
+            background-repeat: no-repeat;
+            background-size: 500px 400px;
+            background-position: calc(100vw - 500px) 120px;
+        }
+
+        #caracteristicas .container {
+            text-align: initial;
+        }
+
+        #caracteristicas ul {
+            margin-left: 100px;
+        }
+
+        #contactanos h2 {
+            font-size: 5em;
+        }
+
+        #contactanos button {
+            font-size: 2em;
+        }
+
+        footer .container {
+            justify-content: flex-end;
+        }
     }
-    #nuestros-programas h2{
-        font-size: 4em;
+
+    @media (min-width: 1200px) {
+        #caracteristicas {
+            background-position-x: calc(100vw - 800px);
+        }
     }
-    #nuestros-programas h3{
-        margin-top: 0;
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 3px solid #ccc;
+            transition: 0.5s;
     }
-    #nuestros-programas .carta{
-        padding: 50px;
-        background-size: 100% 150px;
-        background-repeat: no-repeat;
-        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-        max-width: 450px;
+
+    /* Estilos para el botón de envío */
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            transition: 0.3s;
+        }
     }
-    img{
+
+    .carousel-wrapper {
+        overflow: hidden;
+    }
+
+    .carousel {
+        display: flex;
+        width: 300%;
+    }
+
+    .carousel div {
+        width: 100%;
+        animation: carousel 6s infinite;
+        text-align: center;
+    }
+
+    .carousel img {
         max-width: 100%;
-    }
-    .carta:first-child{
-        background-image: linear-gradient(
-            0deg,
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
-        )
-        ,url("media/front-end-cropped.jpg");
-    }
-    .carta:nth-child(2){
-        background-image: linear-gradient(
-            0deg,
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
-        )
-        ,url("media/full-stack-cropped.jpg");
-    }
-    .carta:nth-child(3){
-        background-image: linear-gradient(
-            0deg,
-            rgba(0,0,0,0.5),
-            rgba(0,0,0,0.5)
-        )
-        ,url("media/python-cropped.jpg");
-    }
-    #caracteristicas{
-        background-image: url("media/background-2.jpeg");
-        background-repeat: no-repeat;
-        background-size: 500px 400px;
-        background-position: calc(100vw - 500px) 120px;
-    }
-    #caracteristicas .container{
-        text-align: initial;
-    }
-    #caracteristicas ul{
-        margin-left: 100px;
-    }
-    #contactanos h2{
-        font-size: 5em;
-    }
-    #contactanos button{
-        font-size: 2em;
-    }
-    footer .container{
-        justify-content: flex-end;
-    }
-}
-@media (min-width: 1200px) {
-    #caracteristicas{
-        background-position-x: calc(100vw - 800px);
-    }
-}
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 60%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
- /* Estilos para el botón de envío */
- input[type="submit"] {
-    background-color: #4CAF50;
-    color: rgb(5, 5, 5);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
+        height: auto;
+        width: 500px;
 
-.carousel-wrapper{
-    overflow: hidden;
-}
-.carousel {
-  display: flex;
-  width: 300%;
-}
-.carousel div {
-    width: 100%;
-    animation: carousel 6s infinite;
-    text-align: center;
-}
-.carousel img {
-  max-width: 100%;
-  height: auto;
-  width: 500px;
-  
-}
+    }
 
-@keyframes carousel {
-  0% { transform: translateX(0); }
-  33% { transform: translateX(-100%); }
-  66% { transform: translateX(-200%); }
-}
+    @keyframes carousel {
+        0% {
+            transform: translateX(0);
+        }
 
+        33% {
+            transform: translateX(-100%);
+        }
 
+        66% {
+            transform: translateX(-200%);
+        }
+    }

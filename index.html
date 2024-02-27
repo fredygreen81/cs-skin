@@ -89,7 +89,7 @@
      
   </section>
   <section id="contactanos">
-    <h2>¿Todo Listo? Contactanos</h2>
+    <h2>Contactanos</h2>
     <h3>
 
       <body>
@@ -97,16 +97,18 @@
           Por favor, completa el siguiente formulario para ponerte en contacto
           con nosotros:
         </p>
-        <form action="enviar_email.php" method="post">
-          <label for="nombre">Nombre:</label><br />
-          <input type="text" id="nombre" name="nombre" cols="50" required /><br /><br />
-          <label for="correo">Correo Electrónico:</label><br />
-          <input type="email" id="correo" name="correo" cols="50" required /><br /><br />
-
-          <label for="mensaje">Mensaje o requerimiento:</label><br />
-          <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br /><br />
-          <input type="submit" value="Enviar" />
+        <form action="/enviar" method="post">
+          <label for="nombre">Nombre:</label><br>
+          <input type="text" id="nombre" name="nombre" required><br>
+          <label for="email">Correo Electrónico:</label><br>
+          <input type="email" id="email" name="email" required><br>
+          <label for="telefono">Teléfono:</label><br>
+          <input type="tel" id="telefono" name="telefono" required><br>
+          <label for="mensaje">Mensaje:</label><br>
+          <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br><br>
+          <input type="submit" value="Enviar">
         </form>
+
       </body>
     </h3>
   </section>
