@@ -199,10 +199,7 @@
                 rgba(0, 0, 0, 0.5)), url("media/python.jpg");
     }
 
-    #caracteristicas .container {
-        text-align: center;
-        padding: 250px 12px;
-    }
+    
 
     #caracteristicas li {
         margin: 16px 0px;
@@ -218,6 +215,8 @@
         text-align: center;
         color: black;
         height: 80vh;
+        margin-bottom: auto;
+
     }
 
     #contactanos h2 {
